@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_skills_trainig_bg"
+    tools:context=".SkillsTrainingActivity">
+
+    <ImageView
+        android:id="@+id/iv_oval"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_skill_training_oval"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <ImageView
+        android:id="@+id/iv_training_boy"
+        android:layout_width="250dp"
+        android:layout_height="300dp"
+        android:src="@drawable/skills_trainig_boy"
+        app:layout_constraintBottom_toBottomOf="@+id/iv_oval"
+        app:layout_constraintLeft_toLeftOf="@+id/iv_oval"
+        android:layout_marginBottom="100dp"
+        app:layout_constraintRight_toRightOf="@+id/iv_oval"/>
+
+    <TextView
+        android:id="@+id/tvSkillksTrainig"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Skills \nTraining"
+        android:textSize="66sp"
+        android:fontFamily="@font/sfpro_bold"
+        android:textColor="@color/white"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginTop="32dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp" />
+
+    <ImageView
+        android:id="@+id/imgLike"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/fav_icon"
+        app:layout_constraintTop_toBottomOf="@+id/iv_training_boy"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginRight="32dp"/>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="16dp"
+        android:elevation="2dp"
+        app:cardCornerRadius="10dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/imgLike">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp">
+
+            <TextView
+                android:id="@+id/tvhandStand"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/sfpro_bold"
+                android:text="Handstand Pushups"
+                android:textColor="@color/black"
+                android:textSize="28sp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginRight="16dp"
+                android:fontFamily="@font/sefpro_regular"
+                android:gravity="center_horizontal"
+                android:text="The handstand push-up (press-up) - also called the vertical push-up (press-up) or the inverted push-up…."
+                android:textAlignment="center"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tvhandStand" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+
+    <ImageView
+        android:id="@+id/circleBottom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/circle_bottom"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:scaleType="centerCrop"
+        />
+
+    <ImageView
+        android:id="@+id/redCard"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/bottom1"
+        app:layout_constraintBottom_toBottomOf="@id/circleBottom"
+        app:layout_constraintLeft_toLeftOf="@id/circleBottom"
+        android:layout_marginBottom="2dp"
+       />
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginBottom="10dp"
+        android:src="@drawable/bottom2"
+        app:layout_constraintBottom_toBottomOf="@id/circleBottom"
+        app:layout_constraintLeft_toLeftOf="@id/circleBottom" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/bottom5"
+        app:layout_constraintBottom_toBottomOf="@+id/circleBottom"
+        app:layout_constraintRight_toRightOf="@id/circleBottom"
+        android:layout_marginBottom="2dp"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/bottom4"
+        app:layout_constraintBottom_toBottomOf="@+id/circleBottom"
+        app:layout_constraintRight_toRightOf="@id/circleBottom"
+        android:layout_marginBottom="6dp"
+        android:layout_marginLeft="2dp"/>
+
+    <ImageView
+        android:id="@+id/bottomc1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/bottomc1"
+        android:layout_marginLeft="10dp"
+        app:layout_constraintBottom_toBottomOf="@id/circleBottom"
+        app:layout_constraintLeft_toLeftOf="@id/circleBottom"/>
+
+    <ImageView
+        android:id="@+id/bottomc2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/bottomc2"
+        app:layout_constraintBottom_toTopOf="@id/bottomc1"
+        app:layout_constraintLeft_toLeftOf="@id/circleBottom"
+        android:layout_marginLeft="40dp"
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/bottomc3"
+        app:layout_constraintTop_toTopOf="@id/bottomc1"
+        app:layout_constraintLeft_toLeftOf="@id/bottomc2"
+        android:layout_marginLeft="155dp"
+        />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

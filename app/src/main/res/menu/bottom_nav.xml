@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item android:id="@+id/menuIcon1"
+    android:title="Technique"
+    android:icon="@drawable/ic_menu_icon1"/>
+
+    <item android:id="@+id/menuIcon2"
+        android:title="Technique"
+        android:icon="@drawable/ic_menu_icon2"/>
+
+    <item android:id="@+id/plceHolder"
+        android:checkable="false"/>
+
+
+    <item android:id="@+id/menuIcon3"
+        android:title="Technique"
+        android:icon="@drawable/ic_menu_icon3"/>
+    <item android:id="@+id/menuIcon4"
+        android:title="Technique"
+        android:icon="@drawable/ic_menu_icon4"/>
+
+</menu>
