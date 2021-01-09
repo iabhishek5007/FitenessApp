@@ -1,3 +1,14 @@
 <resources>
     <string name="app_name">Fiteness App</string>
+    <string name="the_handstand_push">The handstand push-up (press-up) - also called the vertical push-up (press-up) or the inverted push-up (press-up) also called commandos- is a type of push-up exercise where the body is positioned in a handstand. To prepare the strength until one has built adequate balance.</string>
+    <string name="advanced">Advanced</string>
+    <string name="handstand_pushups">Handstand Pushups</string>
+    <string name="_15">15</string>
+    <string name="pushups">Pushups</string>
+    <string name="hello_abhi">Hello Abhi!</string>
+    <string name="let_s_workout">Let’s workout to get some gains!</string>
+    <string name="all_plans">All Plans</string>
+    <string name="bodyweight">Bodyweight</string>
+    <string name="weights">Weights</string>
+    <string name="the_handstand_push_up_press_up_also_called_the_vertical_push_up_press_up_or_the_inverted_push_up">The handstand push-up (press-up) - also called the vertical push-up (press-up) or the inverted push-up….</string>
 </resources>

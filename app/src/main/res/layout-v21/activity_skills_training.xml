@@ -88,7 +88,7 @@
                 android:layout_marginRight="16dp"
                 android:fontFamily="@font/sefpro_regular"
                 android:gravity="center_horizontal"
-                android:text="@string/the_handstand_push_up_press_up_also_called_the_vertical_push_up_press_up_or_the_inverted_push_up"
+                android:text="The handstand push-up (press-up) - also called the vertical push-up (press-up) or the inverted push-up…."
                 android:textAlignment="center"
                 app:layout_constraintLeft_toLeftOf="parent"
                 app:layout_constraintRight_toRightOf="parent"
@@ -118,21 +118,19 @@
         android:layout_height="wrap_content"
         android:src="@drawable/bottom1"
         app:layout_constraintBottom_toBottomOf="@id/circleBottom"
-        app:layout_constraintLeft_toLeftOf="parent"
-        android:layout_marginLeft="25dp"
+        app:layout_constraintLeft_toLeftOf="@id/circleBottom"
         android:layout_marginBottom="2dp"
-        android:layout_marginStart="25dp" />
+       />
 
 
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
         android:layout_marginBottom="10dp"
         android:src="@drawable/bottom2"
         app:layout_constraintBottom_toBottomOf="@id/circleBottom"
-        app:layout_constraintLeft_toLeftOf="parent"
-        android:layout_marginLeft="20dp"
-        android:layout_marginStart="20dp" />
+        app:layout_constraintLeft_toLeftOf="@id/circleBottom" />
 
     <ImageView
         android:layout_width="wrap_content"
@@ -149,8 +147,7 @@
         app:layout_constraintBottom_toBottomOf="@+id/circleBottom"
         app:layout_constraintRight_toRightOf="@id/circleBottom"
         android:layout_marginBottom="6dp"
-        android:layout_marginLeft="2dp"
-        android:layout_marginStart="2dp" />
+        android:layout_marginLeft="2dp"/>
 
     <ImageView
         android:id="@+id/bottomc1"
@@ -159,8 +156,7 @@
         android:src="@drawable/bottomc1"
         android:layout_marginLeft="10dp"
         app:layout_constraintBottom_toBottomOf="@id/circleBottom"
-        app:layout_constraintLeft_toLeftOf="@id/circleBottom"
-        android:layout_marginStart="10dp" />
+        app:layout_constraintLeft_toLeftOf="@id/circleBottom"/>
 
     <ImageView
         android:id="@+id/bottomc2"
@@ -170,7 +166,7 @@
         app:layout_constraintBottom_toTopOf="@id/bottomc1"
         app:layout_constraintLeft_toLeftOf="@id/circleBottom"
         android:layout_marginLeft="40dp"
-        android:layout_marginStart="40dp" />
+        />
 
     <ImageView
         android:layout_width="wrap_content"
@@ -194,7 +190,7 @@
         android:layout_marginTop="10dp"
         android:layout_marginLeft="170dp"
         android:rotation="-5"
-        android:layout_marginStart="170dp" />
+        />
 
     <ImageView
         android:layout_width="wrap_content"
@@ -205,8 +201,7 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         android:layout_marginTop="120dp"
-        android:layout_marginLeft="220dp"
-        android:layout_marginStart="220dp" />
+        android:layout_marginLeft="220dp"/>
 
 
 
